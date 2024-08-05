@@ -16,4 +16,4 @@ Desde la gestión de usuarios hasta el análisis de estadísticas, nuestro siste
 <li>Cierres: Realiza cierres de caja y genera reportes financieros detallados.</li>
 <li>Precios: Ajusta los precios de tus productos de manera dinámica y según la demanda.</li>
 <li>Estadísticas: Analiza el rendimiento de tu restaurante con estadísticas detalladas y reportes personalizados.</li>
-</ul>ul>
+</ul>
