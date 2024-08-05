@@ -1,0 +1,259 @@
+.cabe1{
+width: 100%;
+position: absolute;
+text-align:center;
+background-image: linear-gradient(rgba(46, 9, 9, 0.658), rgba(0, 0, 0, 0));
+z-index: 1;
+}
+.circle{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    width: 300px;
+    height: 300px;
+    background-color: #8f171fb0;
+    border-radius: 0px 0px 0px 100%;
+    z-index: 3;
+}
+::-webkit-scrollbar{
+    background: #8f171f;
+    width: 16px;
+}
+::-webkit-scrollbar-thumb{
+    background: #c38e3f;
+    border-radius: 15px;
+}
+.logo_1{
+    width:40%;
+}
+.logo_2{
+    width:15%;
+}
+.video_cont{
+    position: absolute;
+    right: 50px;
+    top: 50px;
+    background-color: #4010139d;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(145, 145, 145);
+}
+.ico_video i{
+    color: #fff;
+    font-size: 3rem;
+}
+.ico_video {
+    color: #fff;
+    font-size: 1.5rem;
+}
+.ico_video:hover {
+    color: #fff;
+    font-size: 1.55rem;
+    text-decoration: none;
+}
+body{
+    /*background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../image/fondogris.jpg");*/
+    background-color: #401013;
+    margin:0;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:12px;
+}
+
+.titul{
+	font-size: 18px;
+}
+
+.boton{
+	width: 70%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color:#8f171f;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    letter-spacing: 1px;
+    transition: 300ms;
+}
+
+.boton:hover{
+    width: 71%;
+    background-color: #ff0;
+    color: #000;
+    transition: 300ms;
+}
+
+.boton1{
+    width: 50%;
+    height: 40px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin-top: 15px;
+    background-color: #8f171f;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    letter-spacing: 1px;
+    transition: 300ms;
+    padding-top:8px;
+}
+.boton1 input{
+    border: none;
+    color: #fff;
+    background-color: #8f171f00;
+}
+
+.boton1:hover, .boton1:hover input{
+    background-color: rgb(56, 82, 197);
+    color: #000;
+    transition: 300ms;
+}
+.btnfact{
+    background-color: #8f171f;
+    border-radius: 10px;
+    border: none;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+div.tablaLogin{
+text-align: center;
+}
+
+div.tablaLogin table{
+margin: 0 auto;
+text-align: left;
+}
+
+.conte{
+    padding-top: 100px;
+	width: 100%;
+    background-image: url(../image/ini.jpg);
+    background-size: cover;
+    padding: 100px 0px;
+}
+.form_inicio{
+    position: relative;
+    z-index: 50;
+    margin-top: 120PX;
+    margin-bottom: 120px;
+}
+.ini__menu{
+    width: 300px;
+    height: 80%;
+    text-align: center; 
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: rgba(0, 0, 0, 0.623);
+}
+.ini__tit{
+    padding: 10px;
+    background-color: #8f171f;
+    border-radius: 10px 10px 0px 0px;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.ini__user{
+    padding: 5px 20px;
+}
+.ini__user input{
+    margin-top: 10px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #c73b44a6;
+    border: none;
+    color: #fff;
+}
+.ini__user input:focus{
+   background-color: #be1d279f;
+   color: #fff;
+}
+.ini__user label{
+    font-size: 1.5rem;
+    color: #fff;
+}
+.olv{
+    color: #fff;
+}
+.botones_accion{
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.panel-heading{
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    background-color: #8f171f!important;
+}
+.panel{
+    border: none;
+    border-radius: 35px;
+}
+.cierre_com{
+    position: absolute;
+    right: 30px;
+}
+.tit_comanda{
+    font-size: 2rem;
+    color: #fff;
+}
+footer{
+    border-top: 15px solid #401013;
+    height: 230px;
+    padding:20px;
+}
+.define{
+    text-align: left;
+}
+.dis_footer{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+}
+.logos_emp{
+    width: 40%;
+}
+.logo_footer{
+    width: 80%;
+    padding-bottom: 20px;
+}
+@media screen and (max-width:768px) {
+    .logo_1{
+        width:50%;
+    }
+    .logo_2{
+        width:30%;
+    }
+    .video_cont{
+        right: 40px;
+        top: 110px;
+    }
+    .logos_emp, .logo_footer{
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    .cierre_com{
+        position: absolute;
+        right: 30px;
+        font-size: 3rem!important;
+    }
+    footer{
+        border-top: 15px solid #401013;
+        height: 320px;
+        padding:20px;
+    }
+
+}

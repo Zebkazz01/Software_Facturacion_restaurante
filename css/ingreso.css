@@ -1,0 +1,86 @@
+﻿.candidatos{
+  float: left;
+  margin: 25px 0px 0px 0px;
+  width: 58.1%;
+}
+.ingreso{ 
+  float: right;
+  margin: 25px 0px 0px 0px;
+  width: 27.2%;
+}
+.boton{
+  border-radius: 5px;
+  width: 130px;
+  height: 30px;
+  color:white;
+}
+#dopin{
+  border-radius: 3px;
+}
+.entrar{display: none;
+}
+.centropunto{padding: 0% 10% 0% 10%;}
+@media screen and (max-width: 801px) {
+  .centropunto{
+    display: block!important;
+    text-align:left!important;
+    padding: 0% 0% 0% 0%;
+  }
+  .entrar{display:inline!important;}
+  .candidatos{
+  margin: 25px 0px 0px 0px;
+  width: 100%;
+  }
+  .ingreso{ 
+  margin: 25px 0px 0px 0px;
+  width: 100%
+  }
+}
+.ui-buttonset .ui-button {
+    font-size: 0.8em!important;
+}
+.btn-warning{
+  border-radius:3%!important;background: #FF9D46!important;font-weight:bold!important;  
+}
+.btn-warning:hover{
+  background: white!important; border-color: #FF9D46!important; color:#FF9D46!important;
+}
+
+
+#countdown_dashboard {
+
+  height: 55px;
+  margin-left: 25px;
+}
+
+.dash {
+  width: 55px;
+  height: 37px;
+  float: left;
+
+  position: relative;
+}
+
+.dash .digit {
+  font-size: 17pt;
+  font-weight: bold;
+  float: left;
+  width: 16px;
+  text-align: center;
+  font-family: Arial;
+  color: #555;
+  position: relative;
+}
+
+.dash_title {
+  position: absolute;
+  display: block;
+  bottom: 0px;
+  
+  font-size: 5pt;
+  color: #555;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+

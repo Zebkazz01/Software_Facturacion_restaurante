@@ -1,0 +1,56 @@
+table{
+	text-align: justify;
+	width: 35%;	    
+	height: 450px;
+	padding: 20px 20px 20px 20px;	
+	font-size: 19px;
+	margin-bottom: 10px;
+	border-spacing: 20px;
+	
+}
+#foto{
+	position: absolute;
+	float: right;
+	margin-right: 0px;
+}
+input{
+	border-radius: 10px;
+}
+h1{
+	box-shadow: 0px 8px 15px 1px;
+	border-radius: 12px;
+	width: 35%;
+	margin-left: 30px;
+	margin-top: 40px;
+}
+textarea {
+ /* position: fixed;*/
+  float: center;
+  height: 60px;
+  position: relative;
+  
+ }
+
+ .per{
+ 	width: 30%;
+ 	height: 50px;
+ 	position: absolute;
+
+ 	
+ }
+
+ ol{
+ 	position: relative;
+ 	float: center;
+ 	
+ 	
+ }
+ .form1{
+    margin-left: 100px;
+	height: 500px;
+	border-radius: 10px;
+	position: absolute;
+	float: center;
+	clear: both;
+
+ }

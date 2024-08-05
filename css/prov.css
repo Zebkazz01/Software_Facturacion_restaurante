@@ -1,0 +1,53 @@
+table{
+	height: 615px;
+	width: 800px;
+	border-radius: 2px;
+	border-color: #EC6C22;
+
+
+}
+.nombre{
+	height:  65px;
+
+}
+.foto{
+	width: 130px;
+	
+}
+
+.alamedida {
+	width: 100px;
+	height: 50px;
+	font-family: Arial;
+	font-size: 130%;
+	color:white;
+	background-color: #EC6C22;
+	
+
+}
+.pro{
+	font-family: Arial;
+	font-size: 130%;
+	color:white;
+	background-color: #EC6C22;
+	height: 40px;
+
+}
+
+.num{
+	width: 65px;
+}
+
+.movi {
+scrollbar-face-color:#EC6C22 ; 
+scrollbar-highlight-color: white; 
+scrollbar-shadow-color: #EC6C22; 
+scrollbar-3dlight-color:white;
+scrollbar-arrow-color:#EC6C22; 
+scrollbar-track-color:; 
+scrollbar-drakshadow-color:white;
+}
+
+
+
+
