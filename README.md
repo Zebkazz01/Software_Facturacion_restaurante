@@ -9,7 +9,7 @@ Desde la gestión de usuarios hasta el análisis de estadísticas, nuestro siste
 
 ## Funcionalidades
 
-Gestión de Usuarios: Administra el acceso y los permisos de tu personal de manera eficiente.
+Gestión de Usuarios: Administra el acceso y los permisos de tu personal de manera eficiente.<br>
 Kardex: Lleva un control detallado de tu inventario y movimientos de productos.
 Pedidos y Comandas: Gestiona los pedidos de los clientes y las comandas de cocina de forma ágil y precisa.
 Productos: Administra tu catálogo de productos, incluyendo precios y disponibilidad.
